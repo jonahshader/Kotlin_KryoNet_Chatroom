@@ -8,7 +8,7 @@ import com.esotericsoftware.kryonet.Server
 fun main() {
     println("Server or client: ")
     while(true) {
-        when (readLine()) {
+        when (readLine()?.toLowerCase()) {
             "server" -> {
                 runServer()
             }
