@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Main-Class: jonahshader.MainClass
+Class-Path: kryonet-2.22.0-RC1.jar kryo-2.24.0.jar minlog-1.2.jar objene
+ sis-2.1.jar jsonbeans-0.7.jar kotlin-stdlib.jar kotlin-reflect.jar kotl
+ in-test.jar kotlin-stdlib-jdk7.jar kotlin-stdlib-jdk8.jar
+
