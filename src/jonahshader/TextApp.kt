@@ -7,13 +7,15 @@ import com.esotericsoftware.kryonet.Server
 
 fun main() {
     println("Server or client: ")
-    while(true) {
+    loop@ while(true) {
         when (readLine()?.toLowerCase()) {
             "server" -> {
                 runServer()
+                break@loop
             }
             "client" -> {
                 runClient()
+                break@loop
             }
             else -> { }
         }
